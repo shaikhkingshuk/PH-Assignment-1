@@ -18,8 +18,8 @@ nav{
     background-color:rgba(255, 255, 255, 0);
     justify-content: space-between;
     width: 1140px;
-    padding: 20px;
-    margin-top: 20px;
+    height: 151px;
+    margin: 50px 0px;
 
 }
 .btn{
@@ -41,9 +41,9 @@ nav{
     width: 132px;
 }
 nav h1{
-    font-size: 30px;
+    font-size: 34px;
     color:rgb(78, 71, 255);
-    font-weight: 600;
+    font-weight: 900;
 }
 
 header{
@@ -51,22 +51,22 @@ header{
     background-image: url("Assets/Hero-bg.png");
     justify-content: center;
     flex-wrap: wrap;
+    height: 698px;
 }
 .banner{
-    background-color: rgba(127, 255, 212, 0);
-    height: auto;
+    height: 237px;
     width: 905px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 45px;
-    margin: 70px 0px 100px 0px;
+    margin: 0px 0px 152px 0px;
 }
 .banner h1{
-    padding: 30px;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 50px;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
 }
 .banner button{
     height: 48px;
@@ -86,7 +86,7 @@ main{
 .action_section{
     display: flex;
     justify-content: space-between;
-    margin: 62.5px 0px;
+    margin: 116px 0px;
     align-items: center;
 }
 .action_inf{
@@ -116,7 +116,7 @@ main{
 /* CSS for Productive Users Section */
 
 .prod_sec{
-    background-color: #4d47ff22;
+    background-color: #4E47FF1A;
     height: 306px;
     display: flex;
     justify-content: center;
@@ -124,7 +124,10 @@ main{
     border-radius: 20px;
 }
 .prod_header{
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 856px;
 }
 .prod_header h2{
     font-size: 38px;
@@ -135,6 +138,8 @@ main{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    height: 121px;
+    width: 856px;
 }
 .prod_val{
     font-size: 80px;
@@ -183,8 +188,14 @@ main{
     margin: 0px 24px 24px 24px;
     width: 318px;
 }
+.feedback_info h1{
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 600px;
+}
 .feedback_info p{
     font-size: 16px;
+    color: #1E1E1E;
 }
 .feedback_user{
     margin: 0px 24px 24px 24px;
@@ -220,7 +231,7 @@ main{
     justify-content: center;
 } */
 .extra{
-    background-color: white;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,6 +253,7 @@ main{
     height: 48px;
     width: 195px;
     margin-bottom: 20px;
+    font-weight: normal;
 }
 .extra img{
     height: 364px;
@@ -285,14 +297,14 @@ main{
     width: 497px;
     height: 70px;
     margin: 10px 0px 19px 0px;
-    padding: 10px;
+    padding-left: 32px;
 }
 .form_box textarea{
     font-size: 20px;
     border-radius: 10px;
     width: 497px;
     margin: 10px 0px 19px 0px;
-    padding-left: 10px;
+    padding: 20px 0px 0px 32px;
 }
 .form_button{
     width: 497px;
@@ -315,7 +327,7 @@ main{
 }
 .footer_box h1{
     font-size: 100px;
-    font-weight: 900px;
+    font-weight: 900;
     color: #4E47FF;
     display: flex;
     justify-content: center; 
