@@ -55,6 +55,7 @@ header{
     font-size: 50px;
 }
 
+
 /* CSS for main section */
 
 main{
@@ -62,7 +63,9 @@ main{
     margin: 0px auto;
 }
 
-/* Css for action section */
+
+/* CSS for action section */
+
 .action_section{
     display: flex;
     justify-content: space-between;
@@ -87,4 +90,43 @@ main{
     width: 403px;
     border-radius: 60px;
 
+}
+
+/* CSS for Productive Users Section */
+
+.prod_sec{
+    background-color: #4d47ff22;
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.prod_header{
+    align-items: center;
+}
+.prod_header h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.prod_data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.prod_val{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.prod_val_inf{
+    font-size: 20;
+    color: #00000083;
+}
+.prod_{
+    width: 162px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
