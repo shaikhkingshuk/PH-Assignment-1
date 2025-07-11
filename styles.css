@@ -229,3 +229,102 @@ main{
     border-radius: 50px;
     margin-bottom: 71px;
 }
+
+/* CSS for get in touch section */
+.in_touch{
+     /* background-color: #757575;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 632px;
+    margin: 92.23px 0px 14px 0px;
+}
+
+.in_touch h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.form_box label{
+    /* background-color: #4E47FF; */
+    font-size: 18px;
+    font-weight: 500;
+    height: 22px;
+}
+.form_box{
+    /* background-color: hsl(81, 46%, 68%); */
+    height: 490px;
+    width: 497px;
+}
+.form_block{
+    /* background-color: aqua; */
+}
+.form_box input{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 497px;
+    height: 70px;
+    margin: 10px 0px 19px 0px;
+    padding: 10px;
+}
+.form_box textarea{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 497px;
+    margin: 10px 0px 19px 0px;
+    padding-left: 10px;
+}
+.form_button{
+    width: 497px;
+    height: 70px
+}
+
+/* Css for Footer Section */
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_box{
+    /* background-color: #b2b1d7; */
+    margin: 104px 0px;
+    width: 531px;
+    height: 221px;
+}
+.footer_box h1{
+    font-size: 100px;
+    font-weight: 900px;
+    color: #4E47FF;
+    display: flex;
+    justify-content: center; 
+}
+.footer_box p{
+    font-size: 16px;
+    color: #8987A1;
+    text-align: justify;
+    text-align-last: center;
+}
+.footer_box ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.footer_box ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 16px;
+    color: #8987A1;
+}
+.footer_inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: #8987A1;
+}
