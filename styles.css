@@ -10,6 +10,9 @@
     margin: 0px;
     border:0px;
 }
+.body_bg{
+    background-color: #EAEAEA;
+}
 nav{
     display: flex;
     background-color:rgba(255, 255, 255, 0);
@@ -129,4 +132,66 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+/* Users’ Feedback Section */
+
+.feedback{
+    margin: 137px 0px;
+}
+.feedback_header{
+    display: flex;
+    justify-content: center;
+}
+.feedback_header h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.feedback_article{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.stars span{
+    color: #FFB805;
+    height: 15.85px;
+    width: 16.67px;
+}
+.stars{
+    margin: 24px;
+}
+.feedback_info{
+    margin: 0px 24px 24px 24px;
+    width: 318px;
+}
+.feedback_info p{
+    font-size: 16px;
+}
+.feedback_user{
+    margin: 0px 24px 24px 24px;
+    display: flex;
+}
+.feedback_user img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right:12px;
+}
+.feedback_box{
+    height: 243px;
+    width: auto;
+}
+.feedback_name{
+    color: #757575;
+    font-size: 16px;
+}
+.feedback_date{
+    color: #B3B3B3;
+    font-size: 16px;
+}
+.feedback_box{
+    background-color: white;
+    width: 366px;
+    border-radius: 20px;
 }
